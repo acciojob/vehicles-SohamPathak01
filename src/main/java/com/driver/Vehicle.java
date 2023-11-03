@@ -20,6 +20,10 @@ public class Vehicle {
     public int getCurrentSpeed(){
         return currentSpeed;
     }
+
+    public String getName(){
+        return name;
+    }
     public void steer(int direction){
         //direction is in degrees, add it to the current direction
         this.currentDirection=direction;
