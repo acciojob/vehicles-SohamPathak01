@@ -8,10 +8,8 @@ public class Boat extends Vehicle implements WaterVehicle{
         super(name);
     }
 
-    public int setCapacity(int capacity){
+    public void setCapacity(int capacity){
         this.Capacity=capacity;
-    }
-    public void Boat(){
 
     }
     @Override
